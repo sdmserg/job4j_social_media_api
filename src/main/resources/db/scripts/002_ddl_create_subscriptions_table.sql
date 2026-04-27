@@ -1,8 +1,8 @@
 --liquibase formatted sql
 
---changeset sergei:002_ddl_create_relationships_table.sql
+--changeset sergei:002_ddl_create_subscriptions_table.sql
 
-CREATE TABLE relationships
+CREATE TABLE subscriptions
 (
     id          SERIAL PRIMARY KEY,
     user_id     INT REFERENCES users(id),
