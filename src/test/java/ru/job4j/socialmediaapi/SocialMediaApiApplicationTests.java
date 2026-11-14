@@ -21,7 +21,7 @@ class SocialMediaApiApplicationTests {
 	@Container
 	@ServiceConnection
 	private static final PostgreSQLContainer CONTAINER =
-			new PostgreSQLContainer("postgres:16.4");
+			new PostgreSQLContainer("postgres:17");
 
 	@Autowired
 	private MockMvc mockMvc;
